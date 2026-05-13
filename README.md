@@ -22,7 +22,7 @@ The project covers every stage of a professional BI workflow:
 | **Data Cleaning** | Power Query (M language) — structured, dependency-aware transformation sequence applied column by column |
 | **Data Modelling** | Star schema — 1 fact table, 3 dimension tables, integer foreign keys, DAX Calendar table |
 | **DAX Measures** | 13 measures across 3 groups: Base/Rate, Time Intelligence, and a Valid Dates base measure |
-| **Reporting** | 3 executive-level report pages with cross-page slicer sync and conditional formatting |
+| **Reporting** | 3 executive-level report pages with cross-page slicer sync |
 
 ---
 
