@@ -42,7 +42,7 @@ The project covers every stage of a professional BI workflow:
 - 4 KPI Cards: Closed Won Count · Closed Won Revenue · Avg Days to Close · YoY Growth %
 - Clustered bar chart: Total Revenue vs Closed Won Revenue per producer
 - Treemap: Revenue by Office
-- Performance Matrix: 6 measures per producer (Total Opportunities, Closed Won Count, Win Rate %, Total Revenue, Avg Deal Size, Avg Days to Close) with Win Rate % conditional formatting
+- Performance Matrix: 6 measures per producer (Total Opportunities, Closed Won Count, Win Rate %, Total Revenue, Avg Deal Size, Avg Days to Close)
 - Slicers: Year (tile) · Producer (dropdown)
 
 ### Page 3 — Pipeline Trends & Time Analysis
