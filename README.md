@@ -172,8 +172,8 @@ All relationships: Many-to-One · Single cross-filter direction
 |---------------|-----------|-------------|-------------|
 | Fact_Opportunities | Calendar | Date → Date | Many-to-One |
 | Fact_Opportunities | Dim_Producers | Producer_ID → Producer_ID | Many-to-One (Integer) |
-| Fact_Opportunities | Dim_Accounts | Account_ID → Acct_ID | Many-to-One (Text) |
-| Fact_Opportunities | Dim_Stage | Stage_ID → StageID | Many-to-One (Integer) |
+| Fact_Opportunities | Dim_Accounts | Account_ID → Account_ID | Many-to-One (Text) |
+| Fact_Opportunities | Dim_Stage | Stage_ID → Stage_ID | Many-to-One (Integer) |
 
 **Why integer foreign keys?**
 Text-based joins risk silent mismatches from whitespace differences. Integer joins are more reliable and performant. Stage_ID was extracted dynamically from the stage string. Producer_ID was created via an index column on Dim_Producers. Account_ID was merged in from Dim_Accounts on Account Name.
