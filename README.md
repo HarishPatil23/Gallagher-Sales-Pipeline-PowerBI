@@ -100,7 +100,7 @@ The raw dataset had **180 rows** with multiple data quality issues across severa
 
 | Column | Issue | Fix Applied |
 |--------|-------|-------------|
-| Date | Mixed types — invalid text values alongside valid DD/MM/YYYY dates | Force to Text → Replace invalids → Change Type with UK Locale → Replace Errors → null |
+| Date | Mixed types — invalid text values alongside valid DD/MM/YYYY dates | Force to Text → Replace invalids → Change Type with India Locale → Replace Errors → null |
 | Expected Decision Date | Formula artefacts ("="), wrong locale | Same approach as Date column |
 | Annual Revenue | 6 error-state cells (#VALUE! from broken Excel formulas) | Replace Errors → null (not 0 — see reasoning below) |
 | Niche Affiliations | Error-state #NAME? cell, blank/null values | Replace Errors first (before Trim) → "Other", then nulls → "Other" |
