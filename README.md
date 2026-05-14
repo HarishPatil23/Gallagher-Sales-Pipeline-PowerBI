@@ -146,9 +146,9 @@ Two-stage deduplication:
 The model follows a star schema design with Fact_Opportunities at the centre, connected to 4 surrounding tables via integer and text foreign keys.
 
 ```
-                    [ Calendar ]
-                         │ 1
-                         │
+                         [ Calendar ]
+                              │ 1
+                              │
 [ Dim_Producers ] ─── [ Fact_Opportunities ] ─── [ Dim_Accounts ]
       1 │                     ★                         │ 1
         │                     │
