@@ -149,10 +149,12 @@ The model follows a star schema design with Fact_Opportunities at the centre, co
                          [ Calendar ]
                               │ 1
                               │
-[ Dim_Producers ] ─── [ Fact_Opportunities ] ─── [ Dim_Accounts ]
-      1 │                     ★                         │ 1
-        │                     │
-        │               [ Dim_Stage ]
+                              ★
+[ Dim_Producers ] ─── ★ [ Fact_Opportunities ] ★ ─── [ Dim_Accounts ]
+     1                        ★                            1
+                              │
+                              │
+                        [ Dim_Stage ]
                               1
 
 All relationships: Many-to-One · Single cross-filter direction
