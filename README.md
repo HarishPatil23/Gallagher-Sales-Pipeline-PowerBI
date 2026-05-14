@@ -143,6 +143,8 @@ Two-stage deduplication:
 
 ## 🗃️ Data Model — Star Schema
 
+The model follows a star schema design with Fact_Opportunities at the centre, connected to 4 surrounding tables via integer and text foreign keys.
+
 ```
                     [ Calendar ]
                          │ 1
@@ -155,6 +157,11 @@ Two-stage deduplication:
 
 All relationships: Many-to-One · Single cross-filter direction
 ```
+### Model Diagram
+
+![Data Model](Screenshots/Data_Model.png)
+
+*Star schema: Fact_Opportunities (centre) connected to Calendar (time intelligence), Dim_Producers (producer/office context), Dim_Accounts (client accounts), and Dim_Stage (pipeline stages). All relationships are Many-to-One with Single cross-filter direction.*
 
 ### Tables
 
